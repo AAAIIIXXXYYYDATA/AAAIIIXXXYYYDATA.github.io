@@ -1,0 +1,15 @@
+/*FOOTER*/
+footer{
+    background-color: #d9d9d9;
+    width: 100%;
+    display:flex;    
+    justify-content:space-around;
+    font-size: smaller;
+    padding:1rem;
+}
+
+footer > *{
+    
+    flex-basis: 27%;
+    
+}

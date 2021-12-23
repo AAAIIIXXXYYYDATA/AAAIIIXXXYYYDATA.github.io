@@ -1,0 +1,176 @@
+/*NAVBAR*/
+nav
+{
+    
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav a
+{
+    padding: 2rem;
+    border-top:3px solid transparent;
+    
+}
+nav a:hover
+{
+    border-top-color:#0065fc;
+}
+
+#logo
+{
+    margin-right:auto;
+    padding: 1.5rem 2rem 0;
+}
+
+.signup
+{
+    font-weight: bold;
+    color: #0065fc;
+}
+
+.sub-nav
+{
+
+display:flex;
+}
+
+.sub-nav a:hover
+{
+    color:#0065fc ;
+}
+
+
+
+@media (max-width:1200px) {
+    .sub-nav
+    {
+       
+       order:1;
+       flex-basis: 100%;
+    }
+    
+    
+    .sub-nav a
+    {
+        flex-basis: 50%; 
+        text-align: center;
+        border-bottom: 3px solid lightgray ;
+    }
+    
+
+
+
+.sub-nav a:hover    
+{
+    border-bottom-color: #0065fc ;
+    border-top-color: transparent;
+}
+
+.search-form .search-text
+    
+{  
+   display:none;
+}
+
+.fas.fa-search
+{
+  display:inline;
+  background-color:#0065fc;
+}
+
+}
+
+/*BODY*/
+.wrapper
+{
+    padding:0 2rem;
+}
+
+.wrapper h1
+.wrapper p
+{
+    margin-bottom:1rem;
+}
+/*SEARCH-FORM*/
+.search-form
+{
+    display:flex;
+    align-items:center;
+    font-size:1.2rem;
+}
+
+.search-form > *
+
+{
+    padding :1rem 1.5rem;
+    font-size:1.2rem;
+}
+
+.search-form i
+{
+    background-color:lightgrey;
+    border-radius: 1rem 0 0 1rem;
+    
+}
+
+.search-form input 
+{
+    flex-basis:16rem;
+    border: 1px solid lightgrey;
+    font-weight: bold;
+    overflow:auto;
+}
+
+.search-form input::placeholder{
+    color:black;
+}
+
+
+.search-form button
+{
+    background-color: #0065fc;
+    color:white;
+   
+    font-weight:bold;
+    border-radius:0 1rem 1rem 0;
+    border:0.008rem solid #0065fc;
+    cursor:pointer;
+    opacity:0.9;
+    transition:transform 200ms;
+}
+
+.search-form button:hover
+{
+    opacity: 1;
+    transform:scale(1.03);
+}
+
+.fas.fa-search
+{
+    display:none;    
+}
+
+.fas.fa-map-marker-alt{
+    border: 0.17rem solid lightgrey;
+}
+
+
+
+
+@media (max-width:1200px) {
+   
+.search-form .search-text
+    
+{  
+   display:none;
+}
+
+.fas.fa-search
+{
+  display:inline;
+  background-color:#0065fc;
+}
+
+}
